@@ -1,0 +1,22 @@
+{
+  "name": "csv-splitter-js",
+  "version": "1.0.0",
+  "description": "Takes an input csv file, and outputs the csv split into the requested chunk size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnor/CSVSplitterJS.git"
+  },
+  "author": "Adrian Flannery <aflanry@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/finnor/CSVSplitterJS/issues"
+  },
+  "homepage": "https://github.com/finnor/CSVSplitterJS#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
