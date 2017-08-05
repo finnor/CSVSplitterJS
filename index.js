@@ -1,1 +1,3 @@
-CSVSplitterJS = require("./src/csv-splitter-js");
+let CSVSplitterJS = require("./src/csv-splitter-js");
+
+export {CSVSplitterJS as Chunker};

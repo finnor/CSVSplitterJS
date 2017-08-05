@@ -1,7 +1,10 @@
 module.exports = {
-  entry: "./index.js",
-  output: {
-    filename: "bundle.js"
-  },
-  watch: true
-}
+    entry: "./index.js",
+    output: {
+        filename: "bundle.js",
+        library: "CSVSplitterJS"
+    },
+    resolve: {
+        extensions: [".js"]
+    }
+};
